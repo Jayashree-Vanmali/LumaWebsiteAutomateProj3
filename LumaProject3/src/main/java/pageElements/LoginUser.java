@@ -162,7 +162,7 @@ public class LoginUser extends AbstractMethods
 	}
 
 	private String getForgotPassEmail() throws IOException {
-		FileInputStream fs = new FileInputStream("C:\\Users\\atamboli\\Desktop\\Excelr\\LumaProjectData.xlsx");
+		FileInputStream fs = new FileInputStream("C:\\Users\\x8hsbp\\git\\E-CommerceWebsite\\LumaProject3\\src\\main\\java\\testData\\LumaProjectData.xlsx");
 
 		XSSFWorkbook workbook = new XSSFWorkbook(fs);
 		XSSFSheet sheet = workbook.getSheetAt(0);

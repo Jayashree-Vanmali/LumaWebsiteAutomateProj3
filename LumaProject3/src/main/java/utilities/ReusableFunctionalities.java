@@ -69,7 +69,7 @@ public class ReusableFunctionalities extends AbstractMethods {
 	
 	public void login(boolean valid) throws IOException {
 		
-		FileInputStream fs = new FileInputStream("C:\\Users\\atamboli\\Desktop\\Excelr\\LumaProjectData.xlsx");
+		FileInputStream fs = new FileInputStream("C:\\Users\\x8hsbp\\git\\E-CommerceWebsite\\LumaProject3\\src\\main\\java\\testData\\LumaProjectData.xlsx");
 
 		XSSFWorkbook workbook = new XSSFWorkbook(fs);
 		XSSFSheet sheet = workbook.getSheetAt(0);
@@ -100,7 +100,7 @@ public class ReusableFunctionalities extends AbstractMethods {
 	public void registrationPageInvalid() {
 		try 
 		{
-			FileInputStream fs1 = new FileInputStream("C:\\Users\\atamboli\\Desktop\\Excelr\\LumaProjectData.xlsx");
+			FileInputStream fs1 = new FileInputStream("C:\\Users\\x8hsbp\\git\\E-CommerceWebsite\\LumaProject3\\src\\main\\java\\testData\\LumaProjectData.xlsx");
 
 			XSSFWorkbook workbook = new XSSFWorkbook(fs1);
 			XSSFSheet sheet = workbook.getSheetAt(0);
@@ -142,7 +142,7 @@ public class ReusableFunctionalities extends AbstractMethods {
 	public void registrationPageExistingUser() {
 		try 
 		{
-			FileInputStream fs1 = new FileInputStream("C:\\Users\\atamboli\\Desktop\\Excelr\\LumaProjectData.xlsx");
+			FileInputStream fs1 = new FileInputStream("C:\\Users\\x8hsbp\\git\\E-CommerceWebsite\\LumaProject3\\src\\main\\java\\testData\\LumaProjectData.xlsx");
 
 			XSSFWorkbook workbook = new XSSFWorkbook(fs1);
 			XSSFSheet sheet = workbook.getSheetAt(0);
@@ -185,7 +185,7 @@ public class ReusableFunctionalities extends AbstractMethods {
 	{
 		try 
 		{
-			FileInputStream fs1 = new FileInputStream("C:\\Users\\atamboli\\Desktop\\Excelr\\LumaProjectData.xlsx");
+			FileInputStream fs1 = new FileInputStream("C:\\Users\\x8hsbp\\git\\E-CommerceWebsite\\LumaProject3\\src\\main\\java\\testData\\LumaProjectData.xlsx");
 
 			XSSFWorkbook workbook = new XSSFWorkbook(fs1);
 			XSSFSheet sheet = workbook.getSheetAt(0);
@@ -228,7 +228,7 @@ public class ReusableFunctionalities extends AbstractMethods {
 	{
 		try 
 		{
-			FileInputStream fs1 = new FileInputStream("C:\\Users\\atamboli\\Desktop\\Excelr\\LumaProjectData.xlsx");
+			FileInputStream fs1 = new FileInputStream("C:\\Users\\x8hsbp\\git\\E-CommerceWebsite\\LumaProject3\\src\\main\\java\\testData\\LumaProjectData.xlsx");
 
 			XSSFWorkbook workbook = new XSSFWorkbook(fs1);
 			XSSFSheet sheet = workbook.getSheetAt(0);
@@ -291,7 +291,7 @@ public class ReusableFunctionalities extends AbstractMethods {
 	{
 		try 
 		{
-			FileInputStream fs1 = new FileInputStream("C:\\Users\\atamboli\\Desktop\\Excelr\\LumaProjectData.xlsx");
+			FileInputStream fs1 = new FileInputStream("C:\\Users\\x8hsbp\\git\\E-CommerceWebsite\\LumaProject3\\src\\main\\java\\testData\\LumaProjectData.xlsx");
 
 			XSSFWorkbook workbook = new XSSFWorkbook(fs1);
 			XSSFSheet sheet = workbook.getSheetAt(0);
